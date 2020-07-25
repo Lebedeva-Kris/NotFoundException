@@ -23,12 +23,12 @@ class ProductRepositoryTest {
         assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void shouldCastFromBookClass(){
-        Product product = new Book();
-        if (product instanceof Book) {
-            Book book = (Book) product;
-        }
-    }
+//    @Test
+//    public void shouldCastFromBookClass(){
+//        Product product = new Book();
+//        if (product instanceof Book) {
+//            Book book = (Book) product;
+//        }
+//    }
 
 }
